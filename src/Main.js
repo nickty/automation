@@ -289,6 +289,7 @@ export default function Main() {
 
   return (
     <FlexBox>
+      <h1>Automation Solution Test</h1>
       <Table columns={columns} dataSource={dataSource} />
       <div style={{ display: "inline" }}>
         <Button onClick={() => setBook(true)} type="primary">
